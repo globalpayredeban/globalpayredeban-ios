@@ -144,7 +144,7 @@ Para crear el widget debe generar el PaymentezAddNativeController del  Paymentez
 
 El widget puede scanear con la cámara del celular, la información de la tarjeta, utilizando card.io.
 
-![Example](https://developers.paymentez.com/wp-content/uploads/2017/10/ios-example.png)
+![Example](https://developers.globalpay.com.co/wp-content/uploads/2017/10/ios-example.png)
 
 ### Swift
 
