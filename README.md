@@ -409,7 +409,7 @@ Los elementos personalizables del formulario son los siguientes:
 - `cardTitle`: Cadena con el placeholder personalizado para el campo de Tarjeta
 - `invalidCardTitle`: Cadena para el mensaje de error cuando el número de tarjeta es inválido
 
-
+<!--
 ## Construcción y Ejecución del PaymentezSwift
 Antes de poder ejecutar la aplicación PaymentezStore, debe de configurarle su APP_CODE y APP_SECRET_KET y un backend de prueba.
 
@@ -421,3 +421,5 @@ Antes de poder ejecutar la aplicación PaymentezStore, debe de configurarle su A
 5. Reemplace las variables (uid y email) en UserModel.swift con su id de usuario de prueba.
 
 Nota importante: si solo tiene un APP_CODE, suponga que es su `SERVER_APP_CODE`. Por lo tanto, debe solicitar a su contacto en el equipo de GlobalPay Redeban su `CLIENT_APP_CODE`.
+
+-->
