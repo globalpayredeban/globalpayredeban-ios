@@ -138,7 +138,7 @@ In order to create a widget you should create a PaymentAddNativeController from 
 **Note:**  *When you are using the Payment Form as Widget. The Client custom ViewController will be responsible for the layout and synchronization (aka Spinner or loading)*
 
 The widget can scan with your phones camera the credit card data using card.io.
-![Example](https://github.com/paymentez/clickpayredeban-ios/blob/master/img/imgScreen.png)
+![Example](https://cdn.globalpay.com.co/documentacion/img/imgScreen.png)
 
 ```swift
 let paymentAddVC = self.addPaymentWidget(toView: self.addView, delegate: nil, uid:UserModel.uid, email:UserModel.email)

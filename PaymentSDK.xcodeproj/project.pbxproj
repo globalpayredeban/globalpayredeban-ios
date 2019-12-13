@@ -688,6 +688,7 @@
 					"$(PROJECT_DIR)/PaymentSDK/DeviceCollectorLibrary",
 					"$(PROJECT_DIR)/CardIO",
 				);
+				MARKETING_VERSION = 1.7;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				OTHER_LDFLAGS = (
@@ -735,6 +736,7 @@
 					"$(PROJECT_DIR)/PaymentSDK/DeviceCollectorLibrary",
 					"$(PROJECT_DIR)/CardIO",
 				);
+				MARKETING_VERSION = 1.7;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = (
