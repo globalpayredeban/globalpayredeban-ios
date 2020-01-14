@@ -19,8 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         let locale = NSLocale.preferredLanguages.first
-        PaymentSDKClient.setEnvironment("IOS-CO-CLIENT", secretKey: "AKKqsezFDHtanNv1G0ARyxb8DiYARE", testMode: true)
+        PaymentSDKClient.setEnvironment("GPAY-CO-CLIENT", secretKey: "Le2OTJH75ySiJm7RzUbP4rQ9GlylJQ", testMode: true)
         // Override point for customization after application launch.
         let locationManager = CLLocationManager()
         locationManager.requestWhenInUseAuthorization()

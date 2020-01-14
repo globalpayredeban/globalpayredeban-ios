@@ -12,7 +12,7 @@
 #import "MyBackendLib.h"
 
 @implementation MyBackendLib
-static NSString *myBackendUrl = @"https://example-paymentez-backend.herokuapp.com/";
+static NSString *myBackendUrl = @"https://example-redeban-backend-v2.herokuapp.com/";
 
 +(NSString *)myBackendUrl{
     return myBackendUrl;

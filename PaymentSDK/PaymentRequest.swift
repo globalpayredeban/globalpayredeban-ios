@@ -143,8 +143,8 @@ import Foundation
 
 class PaymentRequest
 {
-    let testUrl = "https://ccapi-stg.paymentez.com"
-    let prodUrl = "https://ccapi.paymentez.com"
+    let testUrl = "https://ccapi-qa.globalpay.com.co"
+    let prodUrl = "https://ccapi.globalpay.com.co"
     var testMode = false
     init(testMode:Bool!)
     {

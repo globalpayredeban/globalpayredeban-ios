@@ -11,7 +11,8 @@
     
     class MyBackendLib
     {
-        static let myBackendUrl = "https://example-paymentez-backend.herokuapp.com/"
+        static let myBackendUrl = "https://example-redeban-backend-v2.herokuapp.com/"
+        
         
         static func verifyTrx(uid:String, transactionId:String, type:Int, value:String, callback:@escaping (_ error:PaymentSDKError?, _ verified:Bool) ->Void)
         {

@@ -6,6 +6,6 @@
 //  
 //
 
-#define USERMODEL_UID  @"69123"
-#define USERMODEL_EMAIL  @"gsotelo@paymentez.com"
-#define USERMMODEL_  @"Gustavo Sotelo"
+#define USERMODEL_UID  @"uid12345"
+#define USERMODEL_EMAIL  @"dev@redeban.com"
+#define USERMMODEL_  @"Redeban"
