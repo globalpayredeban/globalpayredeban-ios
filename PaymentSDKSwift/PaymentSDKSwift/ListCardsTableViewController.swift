@@ -223,8 +223,8 @@ class ListCardsTableViewController: UITableViewController {
         }
         
         alertController.addAction(alertAction)
-        alertController.addAction(alertAction2)
-        alertController.addAction(alertAction3)
+        //alertController.addAction(alertAction2)
+        //alertController.addAction(alertAction3)
 
         self.present(alertController, animated: true, completion: nil)
         

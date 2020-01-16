@@ -22,7 +22,7 @@ class StoreViewController: UIViewController {
     
     var productTitles = ["Pozole Blanco", "Latte"]
     
-    var productPrices = [80.0, 50.0]
+    var productPrices = [600.0, 400.0]
     
     override func viewDidLoad() {
         super.viewDidLoad()

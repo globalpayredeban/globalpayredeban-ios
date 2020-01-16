@@ -33,6 +33,7 @@
 		65D9F0AB1F718D4700A22D3E /* MyBackendLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D9F0AA1F718D4700A22D3E /* MyBackendLib.swift */; };
 		65F5609E215178B200F32C05 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5609C215178B100F32C05 /* Fabric.framework */; };
 		65F5609F215178B200F32C05 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5609D215178B200F32C05 /* Crashlytics.framework */; };
+		9B6FFC6E23CF6B7C00DB1F0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B6FFC6D23CF6B7C00DB1F0F /* GoogleService-Info.plist */; };
 		9B83832923294C6100AF57F0 /* PaymentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B83832823294C6100AF57F0 /* PaymentSDK.framework */; };
 		9B83832A23294C6100AF57F0 /* PaymentSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B83832823294C6100AF57F0 /* PaymentSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -95,6 +96,7 @@
 		65D9F0AA1F718D4700A22D3E /* MyBackendLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBackendLib.swift; sourceTree = "<group>"; };
 		65F5609C215178B100F32C05 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		65F5609D215178B200F32C05 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		9B6FFC6D23CF6B7C00DB1F0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B83832823294C6100AF57F0 /* PaymentSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PaymentSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 		408C1B9B1CE1AA9600B9A2F0 = {
 			isa = PBXGroup;
 			children = (
+				9B6FFC6D23CF6B7C00DB1F0F /* GoogleService-Info.plist */,
 				9B83832823294C6100AF57F0 /* PaymentSDK.framework */,
 				65F5609D215178B200F32C05 /* Crashlytics.framework */,
 				65F5609C215178B100F32C05 /* Fabric.framework */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408C1BB21CE1AA9600B9A2F0 /* LaunchScreen.storyboard in Resources */,
+				9B6FFC6E23CF6B7C00DB1F0F /* GoogleService-Info.plist in Resources */,
 				408C1BAF1CE1AA9600B9A2F0 /* Assets.xcassets in Resources */,
 				408C1BAD1CE1AA9600B9A2F0 /* Main.storyboard in Resources */,
 			);

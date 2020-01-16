@@ -87,7 +87,7 @@ class PaymentSecure: NSObject
     {
         var ip = "127.0.0.1"
         
-        let completeUrl = "https://ccapi-qa.globalpay.com.co/api/cc/ip"
+        let completeUrl = "https://ccapi-stg.globalpay.com.co/api/cc/ip"
         let url:URL? = URL(string: completeUrl)
         let session = URLSession.shared
         
