@@ -86,7 +86,7 @@ sh package.sh
 This will create a /build folder where there are all the necesary .framework (simulator, iphoneos and universal)
 
 
-- Or if you prefer you can download pre-compilled .framework files from [Releases](https://github.com/globalpayredeban/globalpayredeban-ios)
+- Or if you prefer you can download pre-compilled .framework files from [Releases](https://github.com/globalpayredeban/globalpayredeban-ios/releases)
 
 
 2. Drag the PaymentSDK.framework (preferably Universal version) To your project and check "Copy Files if needed".
