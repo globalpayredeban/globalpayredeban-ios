@@ -89,7 +89,6 @@ After
 - Inside the the directory of PaymentSDK.framework, CMD+up
 - You can see three groups, inside the group Release-iosuniversal, you'll find the PaymentSDK.framework
 
-
 - Or if you prefer you can download pre-compilled .framework files from [Releases](https://github.com/globalpayredeban/globalpayredeban-ios/releases)
 
 
