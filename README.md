@@ -77,31 +77,33 @@ SDK is a dynamic framework ([More Info](https://developer.apple.com/library/cont
 
 1. Build the SDK and create .framework files
 
-- If you want build yourself the SDK or you are using a new/beta version of Xcode . Download the project from github and run the following script inside the root folder
-
-```
-sh package.sh
-
-```
 This will create a /build folder where there are all the necesary .framework (simulator, iphoneos and universal)
+ 
+- With Target PaymentSDK selected, build the project for any iOS Simulator.
+- With Target PaymentSDK selected, build the project for a physical device.
+
+After
+
+- With the Target PaymentezSDK-Universal,  build the project for any iOS device. 
+- Inside the group Products -> PaymentSDK.framework -> Show in finder
+- Inside the the directory of PaymentSDK.framework, CMD+up
+- You can see three groups, inside the group Release-iosuniversal, you'll find the PaymentSDK.framework
 
 
-- Or if you prefer you can download pre-compilled .framework files from [Releases](https://github.com/globalpayredeban/globalpayredeban-ios)
+- Or if you prefer you can download pre-compilled .framework files from [Releases](https://github.com/globalpayredeban/globalpayredeban-ios/releases)
 
 
-2. Drag the PaymentSDK.framework (preferably Universal version) To your project and check "Copy Files if needed".
+2. Drag the PaymentSDK.framework To your project and check "Copy Files if needed".
 
-In Target->General : Add PaymentSDK.framework to Embeeded Libraries and Linked Frameworks and  Libraries
+In Target->General : Add PaymentSDK.framework to Frameworks, Libraries, and Embedded Content
 
-
+In Target->Build Settings : Validate Workspace should be YES
 
 3. Update the Build Settings with
 
 Set ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 
 In Build Phases -> Embed Frameworks Uncheck "Copy Only When Installing"
-
-
 
 4. If you use the Universal version and you want to upload to the appstore. Add Run Script Phase: Target->Build Phases -> + ->New Run Script Phase. And paste the following. Make sure that this build phase is added after Embed Frameworks phase.
 ```
