@@ -86,21 +86,21 @@ open class PaymentAddNativeViewController: UIViewController {
         stackView.spacing = 10
         stackView.distribution = .fill
 
-        stackView.backgroundColor = .red
+        stackView.backgroundColor = .white
         return stackView
     }()
     let nameView: UIStackView = {
         let stackView = UIStackView()
         //stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .horizontal
-        stackView.backgroundColor = .red
+        stackView.backgroundColor = .white
         stackView.distribution = .fillEqually
         return stackView
     }()
     let cardNumberView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-        stackView.backgroundColor = .red
+        stackView.backgroundColor = .white
         stackView.spacing = 5
         stackView.distribution = .fill
         return stackView
@@ -108,7 +108,7 @@ open class PaymentAddNativeViewController: UIViewController {
     let verificationView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-        stackView.backgroundColor = .red
+        stackView.backgroundColor = .white
         stackView.spacing = 5
         stackView.distribution = .fill
         return stackView
@@ -329,25 +329,23 @@ open class PaymentAddNativeViewController: UIViewController {
         expirationField.selectedLineColor = baseColor
         cvcField.selectedLineColor = baseColor
         documentField.selectedLineColor = baseColor
-        documentField.selectedTitleColor = baseColor
-        nipField.selectedLineColor = baseColor
         nipField.selectedTitleColor = baseColor
-        cardField.selectedTitleColor = baseColor
-        nameField.selectedTitleColor = baseColor
-        expirationField.selectedTitleColor = baseColor
-        cvcField.selectedTitleColor = baseColor
+        
+        cardField.backgroundColor = backgroundColor
+        nameField.backgroundColor = backgroundColor
+        expirationField.backgroundColor = backgroundColor
+        cvcField.backgroundColor = backgroundColor
+        documentField.backgroundColor = backgroundColor
+        nipField.backgroundColor = backgroundColor
+        mainView.backgroundColor = backgroundColor
+        cvcImageView.backgroundColor = backgroundColor
+        cardNumberView.backgroundColor = backgroundColor
         
         cardField.textColor = baseFontColor
         nameField.textColor = baseFontColor
         expirationField.textColor = baseFontColor
-        cvcField.textColor = baseFontColor
-        documentField.textColor = baseFontColor
         documentField.textColor = baseFontColor
         nipField.textColor = baseFontColor
-        nipField.textColor = baseFontColor
-        cardField.textColor = baseFontColor
-        nameField.textColor = baseFontColor
-        expirationField.textColor = baseFontColor
         cvcField.textColor = baseFontColor
         
         cardField.font = baseFont
@@ -355,13 +353,7 @@ open class PaymentAddNativeViewController: UIViewController {
         expirationField.font = baseFont
         cvcField.font = baseFont
         documentField.font = baseFont
-        documentField.font = baseFont
         nipField.font = baseFont
-        nipField.font = baseFont
-        cardField.font = baseFont
-        nameField.font = baseFont
-        expirationField.font = baseFont
-        cvcField.font = baseFont
         
     }
     
